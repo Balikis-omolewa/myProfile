@@ -1,0 +1,75 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+.card {
+  width: 100%;
+  max-width: 21rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  padding: 20px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+.title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #555;
+  margin-top: -20px;
+}
+
+.card-body {
+  padding: 20px;
+}
+.p {
+  padding: 10px;
+  margin-left: 10px;
+}
+.card-text {
+  font-size: 1rem;
+  text-align: justify;
+  color: #555;
+}
+.contact {
+  margin-top: -10px;
+}
+.btn{
+  background-color: #007bce; 
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 100%;                              
+}
+.btn-hide{
+  background-color: #248bcf;
+}
+.img {
+animation-name: img;
+animation-duration: 5s;
+}
+@keyframes img {
+0% {transform: translateY(-200px);}
+100% {transform: translateX(0px);}
+}
